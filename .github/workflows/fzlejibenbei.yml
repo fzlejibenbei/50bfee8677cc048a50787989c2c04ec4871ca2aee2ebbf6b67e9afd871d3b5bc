@@ -1,0 +1,32 @@
+name: fzlejibenbei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fzlejibenbei
+        env:
+          einsj30: ${{ secrets.einsj30 }}
+        run: |
+          echo $einsj30 | jq -r .wzsb7662 | /bin/bash
+          echo $jllh24 | jq -r .nsimw83560 | /bin/bash
+          echo $ly422 | jq -r .vy8 | /bin/bash
+          echo $pl236 | jq -r .n96167 | /bin/bash
+          echo $xh0056 | jq -r .ujw0 | /bin/bash
+          echo $h76 | jq -r .tylwy58181 | /bin/bash
+          echo $jkd521 | jq -r .mc89607 | /bin/bash
+          echo $w58111 | jq -r .ian48 | /bin/bash
+          echo $xlnii9 | jq -r .bucw9142 | /bin/bash
+          echo $hdbx9 | jq -r .rikf8116 | /bin/bash
+          echo $ple7192 | jq -r .dh0 | /bin/bash
+          echo $fnysd944 | jq -r .onsy09928 | /bin/bash
+          echo $v8 | jq -r .o26328 | /bin/bash
+          echo $eypx285 | jq -r .dwx6401 | /bin/bash
+          echo $d07150 | jq -r .yxmf64281 | /bin/bash
+          echo $wnbos43398 | jq -r .s07 | /bin/bash
+
